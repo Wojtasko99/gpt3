@@ -1,0 +1,10 @@
+.brand__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.brand__container-img{
+    margin-right: 3rem;
+}
