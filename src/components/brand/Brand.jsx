@@ -1,19 +1,20 @@
 import React from 'react'
 import './brand.css'
-import google from '../../assets/google.png';
-import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
-import dropbox from '../../assets/dropbox.png';
-import shopify from '../../assets/shopify.png';
+import { google, slack, atlassian, dropbox, shopify } from './script'
+
 const Brand = () => {
   return (
-    <div className='brand__container section__padding'>
-      <img className='brand__container-img' alt="google" src={google}></img>
-      <img className='brand__container-img' alt="slack" src={slack}></img>
-      <img className='brand__container-img' alt="atlassian" src={atlassian}></img>
-      <img className='brand__container-img' alt="dropbox" src={dropbox}></img>
-      <img className='brand__container-img' alt="shopify" src={shopify}></img>
-      
+    <div className='gpt3__brand section__padding'>
+      <div>
+        <img alt="google" src={google}></img>
+      </div>
+      <div>
+        <img alt="slack" src={slack}></img>
+      </div>
+      <div><img alt="atlassian" src={atlassian}></img></div>
+      <div><img alt="atlassian" src={atlassian}></img></div>
+      <div><img alt="dropbox" src={dropbox}></img></div>
+      <div><img alt="shopify" src={shopify}></img></div>
     </div>
   )
 }
