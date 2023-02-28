@@ -2,7 +2,7 @@ import React from 'react';
 import './article.css';
 const Article = (props) => {
   return (
-    <div className='gpt3__article section__margin'>
+    <div className='gpt3__article'>
       <div className='gpt3__article-image'>
         <img alt="article_img" src={props.img} />
       </div>
